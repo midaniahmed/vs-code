@@ -1,7 +1,5 @@
 ## VS Code Extensions
 
----
-
 ### **Code Appearance & Themes**
 
 #### Themes
@@ -23,6 +21,8 @@
 #### Icons
 
 - ###### [Great Icons](https://marketplace.visualstudio.com/items?itemName=emmanuelbeziat.vscode-great-icons) — `emmanuelbeziat.vscode-great-icons`
+
+- ###### [vscode Icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons) — `vscode-icons-team.vscode-icons`
 
 - ###### [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=pkief.material-icon-theme) — `pkief.material-icon-theme`
 
@@ -98,6 +98,14 @@
 
 - ###### [Angular 2 Snippets](https://marketplace.visualstudio.com/items?itemName=johnpapa.angular2) — `johnpapa.angular2`
 
+- ###### [Angular 2 Switcher](https://marketplace.visualstudio.com/items?itemName=angular2-switcher) — `infinity1207.angular2-switcher`
+
+- ###### [Angular Files](https://marketplace.visualstudio.com/items?itemName=alexiv.vscode-angular2-files) — `alexiv.vscode-angular2-files`
+
+- ###### [Angular Language Service](https://marketplace.visualstudio.com/items?itemName=angular.ng-template) — `angular.ng-template`
+
+- ###### [Angular 2 Inline](https://marketplace.visualstudio.com/items?itemName=natewallace.angular2-inline) — `natewallace.angular2-inline`
+
 #### Tailwind CSS
 
 - ###### [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss) — `bradlc.vscode-tailwindcss`
@@ -117,6 +125,8 @@
 - ###### [JavaScript Booster](https://marketplace.visualstudio.com/items?itemName=sburg.vscode-javascript-booster) — `sburg.vscode-javascript-booster`
 
 - ###### [JavaScript Snippets](https://marketplace.visualstudio.com/items?itemName=xabikos.javascriptsnippets) — `xabikos.javascriptsnippets`
+
+- ###### [JSON to TS](https://marketplace.visualstudio.com/items?itemName=mariusalchimavicius.json-to-ts) — `mariusalchimavicius.json-to-ts`
 
 ---
 
