@@ -1,0 +1,148 @@
+{
+  "files.watcherExclude": {
+    "**/.git/**": true,
+    "**/.husky": true,
+    "pnpm-lock.yaml": true,
+    "**/node_modules/*/**": true
+    // "**/dist/**": false
+    // "**/core/generated/*/**": true,
+  },
+  // Files to hide
+  "files.exclude": {
+    "coverage": true,
+    "node_modules": true,
+    "**/node_modules/**": true,
+    "**/.husky": false,
+    ".vscode": true,
+    "**/dist/**": false,
+    "dist": true,
+    "pnpm-lock.yaml": true
+    // "**/.git": false,
+    // "**/public": true,
+    // "**/docker/**": true,
+    // "cypress": false,
+    // "target": true,
+    // "public": false,
+    // "e2e": true,
+    // "tools": true,
+    // "storybook": true,
+    // ".storybook": true,
+    // "documents": true,
+    // "unit_test_results": true,
+    // "config": true,
+    // "tmp": true,
+    // "typings": true,
+    // "npm-debug.log": true,
+    // "*.sh": true,
+    // ".idea": true,
+    // ".vscode": true,
+    // ".sass-lint.yml": true,
+    // ".gitignore": false,
+    // ".editorconfig": true,
+    // "src/system-config.ts": true,
+    // "src/typings.d.ts": true,
+    // "src/tsconfig.ljson": true,
+    // "src/favicon.ico": true,
+    // "src/test.ts": true,
+    // "src/app/.swagger-codegen": true,
+    // "storybook-static": true,
+    // "README.md": false,
+    // "**/test/**": true,
+  },
+  "editor.fontSize": 15.5,
+  "html.format.wrapAttributes": "force",
+  "files.autoSave": "off",
+  "files.trimTrailingWhitespace": true,
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false,
+  "editor.wordWrap": "off",
+  "typescript.updateImportsOnFileMove.enabled": "never",
+  "breadcrumbs.enabled": true,
+  "todohighlight.isCaseSensitive": true,
+  "todohighlight.keywords": [
+    {
+      "text": "TODO",
+      "color": "#fff",
+      "backgroundColor": "#008000",
+      "overviewRulerColor": "rgba(255,189,42,0.8)"
+    },
+    {
+      "text": "FIXME",
+      "color": "#fff",
+      "backgroundColor": "#F45050",
+      "overviewRulerColor": "rgba(240,98,146,0.8)"
+    },
+    {
+      "text": "NOTE:",
+      "color": "#fff",
+      "backgroundColor": "#73A7BF",
+      "overviewRulerColor": "grey"
+    },
+    {
+      "text": "ASAP:",
+      "color": "red",
+      "isWholeLine": false
+    },
+    {
+      "text": "@Ahmed",
+      "color": "#fff",
+      "backgroundColor": "#008080",
+      "overviewRulerColor": "white"
+    }
+  ],
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "workbench.colorTheme": "Flatland Monokai",
+  "workbench.iconTheme": "material-icon-theme",
+  "prettier.printWidth": 160,
+  "prettier.singleQuote": true,
+  "editor.minimap.maxColumn": 160,
+  "html.format.wrapLineLength": 160,
+
+  "diffEditor.ignoreTrimWhitespace": false,
+  "typescript.preferences.importModuleSpecifier": "relative",
+  "json.maxItemsComputed": 20000,
+  "files.eol": "\n",
+  "bracketPairColorizer.depreciation-notice": false,
+  "editor.inlineSuggest.enabled": true,
+  "npm.keybindingsChangedWarningShown": true,
+  "eslint.codeActionsOnSave.rules": null,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "sibiraj-s.vscode-scss-formatter"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "tabnine.experimentalAutoImports": true,
+  "[css]": {
+    "editor.defaultFormatter": "sibiraj-s.vscode-scss-formatter"
+  },
+  "editor.accessibilitySupport": "off",
+  // "extensions.ignoreRecommendations": true,
+  "window.zoomLevel": -1,
+  "editor.guides.bracketPairs": true,
+  "files.associations": {
+    "*.tsx": "typescriptreact"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "git.autofetch": true,
+  "cSpell.userWords": ["Eiffage"],
+  "github.copilot.editor.enableAutoCompletions": true,
+  "RainbowBrackets.depreciation-notice": false
+}

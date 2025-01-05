@@ -1,0 +1,245 @@
+[
+  {
+    "key": "alt+w",
+
+    "command": "workbench.action.quickOpen"
+  },
+
+  {
+    "key": "alt+w",
+
+    "command": "workbench.action.quickOpenNavigatePrevious",
+
+    "when": "inQuickOpen"
+  },
+
+  {
+    "key": "alt+q",
+
+    "command": "workbench.action.openNextRecentlyUsedEditorInGroup"
+  },
+
+  {
+    "key": "alt+q",
+
+    "command": "workbench.action.quickOpenNavigateNext",
+
+    "when": "inQuickOpen"
+  },
+
+  {
+    "key": "alt+x",
+
+    "command": "workbench.action.terminal.toggleTerminal"
+  },
+
+  // {
+
+  //   "key": "ctrl+shift+right",
+
+  //   "command": "workbench.action.terminal.scrollUpPage",
+
+  //   "when": "terminalFocus"
+
+  // },
+
+  {
+    "key": "alt+c",
+
+    "command": "editor.action.referenceSearch.trigger",
+
+    "when": "editorHasReferenceProvider && editorTextFocus && !inReferenceSearchEditor && !isInEmbeddedEditor"
+  },
+
+  {
+    "key": "alt+q",
+
+    "command": "workbench.action.terminal.kill",
+
+    "when": "editorTextFocus"
+  },
+
+  {
+    "key": "alt+a",
+
+    "command": "workbench.action.toggleSidebarVisibility"
+  },
+
+  {
+    "key": "ctrl+numpad_add",
+
+    "command": "workbench.action.zoomIn",
+
+    "when": "editorTextFocus"
+  },
+
+  {
+    "key": "ctrl+numpad_subtract",
+
+    "command": "workbench.action.zoomOut",
+
+    "when": "editorTextFocus"
+  },
+
+  {
+    "key": "alt+6",
+
+    "command": "workbench.action.focusNextGroup"
+  },
+
+  {
+    "key": "alt+4",
+
+    "command": "workbench.action.focusPreviousGroup"
+  },
+
+  {
+    "key": "alt+right",
+
+    "command": "workbench.action.navigateForward",
+
+    "when": "editorTextFocus"
+  },
+
+  {
+    "key": "alt+left",
+
+    "command": "workbench.action.navigateBack",
+
+    "when": "editorTextFocus"
+  },
+
+  {
+    "command": "workbench.action.toggleSidebarVisibility",
+
+    "key": "ctrl+alt",
+
+    "when": "editorTextFocus"
+  },
+
+  {
+    "key": "ctrl+d",
+
+    "command": "editor.action.deleteLines",
+
+    "when": "editorTextFocus"
+  },
+
+  {
+    "key": "ctrl+numpad_divide",
+
+    "command": "editor.action.commentLine",
+
+    "when": "editorTextFocus"
+  },
+
+  {
+    "key": "alt+q",
+
+    "command": "editor.action.changeAll",
+
+    "when": "editorTextFocus"
+  },
+
+  {
+    "key": "ctrl+shift+numpad_divide",
+
+    "command": "editor.action.blockComment",
+
+    "when": "editorTextFocus"
+  },
+
+  {
+    "key": "ctrl+[Backquote]",
+
+    "command": "editor.action.addSelectionToNextFindMatch",
+
+    "when": "editorTextFocus"
+  },
+
+  {
+    "key": "alt+z",
+
+    "command": "editor.action.quickFix",
+
+    "when": "editorHasCodeActionsProvider && editorTextFocus && !editorReadonly"
+  },
+
+  {
+    "key": "alt+[IntlBackslash]",
+
+    "command": "editor.action.formatDocument",
+
+    "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly"
+  },
+
+  {
+    "key": "alt+numpad_add",
+
+    "command": "workbench.action.terminal.new",
+
+    "when": "terminalFocus"
+  },
+
+  {
+    "key": "alt+numpad_subtract",
+
+    "command": "workbench.action.terminal.kill",
+
+    "when": "terminalFocus"
+  },
+
+  {
+    "key": "alt+right",
+
+    "command": "workbench.action.terminal.focusNext",
+
+    "when": "terminalFocus"
+  },
+
+  {
+    "key": "alt+left",
+
+    "command": "workbench.action.terminal.focusPrevious",
+
+    "when": "terminalFocus"
+  },
+
+  {
+    "key": "ctrl+escape",
+
+    "command": "workbench.action.quit"
+  },
+
+  {
+    "key": "ctrl+q",
+
+    "command": "-workbench.action.quit"
+  },
+
+  {
+    "key": "alt+numpad_multiply",
+
+    "command": "workbench.action.terminal.split",
+
+    "when": "terminalFocus"
+  },
+
+  {
+    "key": "ctrl+shift+5",
+
+    "command": "-workbench.action.terminal.split",
+
+    "when": "terminalFocus"
+  },
+
+  {
+    "key": "ctrl+shift+s",
+
+    "command": "workbench.action.files.saveAll"
+  },
+  {
+    "key": "ctrl+shift+oem_8",
+    "command": "eslint.restart"
+  }
+]
